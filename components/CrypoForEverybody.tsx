@@ -1,4 +1,4 @@
-import img from "../src/assets/images/Screenshot 2023-09-15 045638.png";
+import img from "../src/assets/Screenshot 2023-09-15 045638.png";
 export default function CryptoForEverybody() {
   return (
     <div className="firstDiv">
@@ -8,12 +8,12 @@ export default function CryptoForEverybody() {
           <span className="black"> everybody</span>
         </h1>
         <p className="cryptoForEverybodyp">
-          Bitnet is the easiest place to buy, sell or hold your crypto assets.
-          Get started today.
+          Bitnet is the easiest place to buy, sell or hold your <br />
+          crypto assets. Get started today.
         </p>
         <button className="getStarted">Get started</button>
       </div>
-      <img src={img} alt="" />
+      <img src={img} className="image" />
     </div>
   );
 }

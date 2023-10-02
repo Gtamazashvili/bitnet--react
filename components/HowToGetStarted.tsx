@@ -31,11 +31,7 @@ export default function HowToGetStarted() {
           Get Started
         </button>
       </div>
-      <img
-        src="../public/assets/images/frame-1.png"
-        alt=""
-        className="bigImage"
-      />
+      <img src="../src/assets/frame-1.png" alt="" className="bigImage" />
     </div>
   );
 }

@@ -17,8 +17,8 @@ export default function Closing() {
         </div>
         <p>Coming soon</p>
         <div className="photos">
-          <img src="../public/assets/images/app-store.png" alt="" />
-          <img src="../public/assets/images/play-store.png" alt="" />
+          <img src="../src/assets/app-store.png" alt="" />
+          <img src="../src/assets/play-store.png" alt="" />
         </div>
       </div>
       <div className="contactUs">
