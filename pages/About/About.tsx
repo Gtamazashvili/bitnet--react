@@ -1,11 +1,11 @@
 import "./About.css";
-import { AboutAndPress } from "../../components/AboutAndPress"; // Adjust the import to named import
+import { AboutAndPress } from "../../components/AboutAndPress"; 
 import Press from "../../components/Press";
 import WhoWeAre from "../../components/WhoWeAre";
 import { useState } from "react";
 
 export default function About() {
-  const [selectedTab, setSelectedTab] = useState("whoWeAre"); // Initialize with "whoWeAre" or any default value
+  const [selectedTab, setSelectedTab] = useState("whoWeAre"); 
 
   return (
     <>
